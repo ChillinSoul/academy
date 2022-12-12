@@ -1,7 +1,3 @@
-const http = require('http')
-const fs = require('fs')
-const server = http.createServer((req, res) => {
-	res.writeHead(200, { 'content-type': 'text/html' })
-	fs.createReadStream("/var/www/html/index.html").pipe(res)
+app.get('/',(req,res)=>{
+	res.render('index.ejs')
 })
-server.listen(process.env.PORT || 80)
