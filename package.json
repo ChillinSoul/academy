@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "nodejs": "^0.0.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "academy",
+  "description": "labo tech web",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChillinSoul/academy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChillinSoul/academy/issues"
+  },
+  "homepage": "https://github.com/ChillinSoul/academy#readme"
+}
